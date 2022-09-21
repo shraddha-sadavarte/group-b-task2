@@ -1,0 +1,112 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 80px;
+    font-size: 20px;
+    background-color:#e8f8fd
+    ;
+}
+.nav-list{
+    list-style-type: none;
+}
+.li-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.li-item:hover{
+    background-color: #002E6E;
+    text-decoration: line-through;
+    height: 10px;
+    color:aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn{
+    background-color: #00B9F1;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #002E6E;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.one{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#d9d9d9;
+    height: 30px;
+}
+.learn:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.download{
+    border-radius: 30px;
+    background-color:#cccccc;
+    color:black;
+    font-size: 25px;
+}
+.download:hover{
+    background-color: white;
+    color: black;
+}
+.two{
+    background-color: #00B9F1;
+    padding: 10px;
+    height: 280px;
+}
+.two-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    color: whitesmoke;
+}
+.recharge{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.recharge:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #80bfff;
+    height: 180px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.three{
+    background-color: #002E6E;
+    padding: 20px;
+    height: 280px;
+}
+.three-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recharge1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.recharge1:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color:#330066;
+    height: 180px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
