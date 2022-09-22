@@ -28,6 +28,8 @@
     background-color: #00B9F1;
     border-radius: 30px;
     font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .btn:hover{
     background-color: #002E6E;
@@ -56,6 +58,7 @@
     background-color:#cccccc;
     color:black;
     font-size: 25px;
+    padding: 15px;
 }
 .download:hover{
     background-color: white;
@@ -153,6 +156,8 @@
 }
 .btn2:hover{
     background-color: #00B9F1;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .six{
     display: flex;
@@ -178,4 +183,73 @@
     padding-top: 80px;
     width: 500px;
     border-radius: 20px;
+}
+.seven{
+    display: flex;
+    padding: 40px;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.eight{
+    display: flex;
+    padding: 40px;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.nine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.btn-learn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: blue;
+}
+.btn-learn1:hover{
+    color: #330066;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ten{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.rupee:hover{
+    background-color: #80bfff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rupee{
+    background-color: #00B9F1;
+}
+.invest{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.rupee1{
+    background-color: #00B9F1;
+    padding: 20px;
+}
+.rupee1:hover{
+    background-color: #80bfff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.download{
+    display: flex;
+    justify-content: space-between;
 }
