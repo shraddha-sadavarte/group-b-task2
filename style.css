@@ -249,7 +249,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.download{
+.download1{
     display: flex;
     justify-content: space-between;
 }
